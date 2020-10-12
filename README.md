@@ -1,7 +1,7 @@
 # ssbot
 This is a MMO game bot made mostly for fun in C++17. The game is "2.5d", the bot's efficiency is at least two times of a good player's.
 
-The bot has three main possible uses
+The bot has three main uses
 1. g r i n d i n g much faster than an average player while using multiple accounts, amount of accounts is only limited by RAM capacity
 2. exploiting the resources that randomly spawn in the large game universe before any player has a chance to find them, leaving the universe empty of prospectable resources
 3. assisting the player by taking control of selected accounts and acting as a party member on each of them
