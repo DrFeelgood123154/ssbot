@@ -1,5 +1,5 @@
 # ssbot
-This is a MMO game bot made mostly for fun. The game is "2.5d", the bot's efficiency is at least two times of a good player's.
+This is a MMO game bot made mostly for fun in C++17. The game is "2.5d", the bot's efficiency is at least two times of a good player's.
 
 The bot has three main possible uses
 1. g r i n d i n g much faster than an average player while using multiple accounts, amount of accounts is only limited by RAM capacity
