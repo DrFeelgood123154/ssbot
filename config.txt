@@ -1,8 +1,0 @@
-webaddress=84.28.88.49
-webport=80
-masterport=9001
-interfaceport=9002
-drone_connection_timeout=10
-
-==in seconds
-prospect_system_cooldown=86400
