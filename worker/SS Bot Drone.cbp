@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SS Bot Drone" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SS Bot Drone" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/Dante/Desktop/ss tool 5/Shared code" />
+					<Add directory="Shared code" />
+				</Compiler>
+				<Linker>
+					<Add option="-lwinmm" />
+					<Add library="C:/TDM-GCC-64/x86_64-w64-mingw32/lib32/libws2_32.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SS Bot Drone" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Shared code" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../Shared code" />
+		</Compiler>
+		<Linker>
+			<Add option="-lws2_32" />
+			<Add library="C:/TDM-GCC-64/x86_64-w64-mingw32/lib32/libws2_32.a" />
+		</Linker>
+		<Unit filename="../Shared code/ACCOUNTS.cpp" />
+		<Unit filename="../Shared code/ACCOUNTS.h" />
+		<Unit filename="../Shared code/GLOBALS.cpp" />
+		<Unit filename="../Shared code/GLOBALS.h" />
+		<Unit filename="../Shared code/Helpers.cpp" />
+		<Unit filename="../Shared code/Helpers.h" />
+		<Unit filename="../Shared code/MEMORY.cpp" />
+		<Unit filename="../Shared code/MEMORY.h" />
+		<Unit filename="../Shared code/UNIVERSE.cpp" />
+		<Unit filename="../Shared code/UNIVERSE.h" />
+		<Unit filename="../Shared code/WebServer.cpp" />
+		<Unit filename="../Shared code/WebServer.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

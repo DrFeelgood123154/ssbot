@@ -1,0 +1,14 @@
+webaddress=
+webport=80
+masteraddress=
+masterport=9001
+machinename=
+=== this determines whether the drone will accept orders from master, set to 1 to make it ignore orders
+independent=1
+connect_to_master=0
+report_to_webserver=1
+play_sounds=1
+TEST_OFFSET=3f8
+client_path=C:\Program Files (x86)\Star Sonata 2\Star Sonata.exe
+=== cooldown in hours
+prospect_system_cooldown=24
