@@ -5,7 +5,7 @@ The bot has three main uses
 1. g r i n d i n g much faster than an average player while using multiple accounts, amount of accounts is only limited by RAM capacity
 2. exploiting the resources that randomly spawn in the large game universe before any player has a chance to find them, leaving the universe empty of prospectable resources
 3. assisting the player by taking control of selected accounts and acting as a party member on each of them
-4. behaving like a player and having "some" anti detection measurements. Sometimes it would even party up with a random player who didn't realize it was a bot.
+It behaves like a player and has "some" anti detection measurements. Sometimes it would even accidentally party up with a random player who didn't realize it was a bot.
 
 It's separated into controller and worker.
 Controller is a server which coordinates multiple machines that run the bot, once a worker connects it will send it's config data to the server and with that server decides what each account that the worker runs has to do
