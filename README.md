@@ -4,7 +4,8 @@ This is a MMO game bot made mostly for fun in C++17. The game is "2.5d", the bot
 The bot has three main uses
 1. g r i n d i n g much faster than an average player while using multiple accounts, amount of accounts is only limited by RAM capacity
 2. exploiting the resources that randomly spawn in the large game universe before any player has a chance to find them, leaving the universe empty of prospectable resources
-3. assisting the player by taking control of selected accounts and acting as a party member on each of them\
+3. assisting the player by taking control of selected accounts and acting as a party member on each of them
+
 It behaves like a player and has "some" anti detection measurements. Sometimes it would even accidentally party up with a random player who didn't realize it was a bot.
 
 It's separated into controller and worker.
